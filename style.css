@@ -26,6 +26,9 @@ body{
     border-radius: 0.2rem;
    
 }
+.topIcon:hover{
+    color:rgb(226, 215, 215);
+}
 .filter_container{
     height:60%;
     width:14rem;
@@ -48,6 +51,10 @@ body{
     width:40%;
     /* border: 1px solid red; */
     border-radius: 0.1rem;
+    opacity: 0.7;
+}
+.filter_color_box:hover{
+    opacity:1;
 }
 
 .red{
@@ -157,6 +164,7 @@ body{
 }
 .task_filter{
     height: 7%;
+    width: 80%;
 }
 .task_desc_container{
     padding-left:0.5rem;   
